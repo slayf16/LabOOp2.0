@@ -10,7 +10,10 @@ namespace проект
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет мир");
+            string a;
+            Console.WriteLine("как вас зовут?");
+            a = Console.ReadLine();
+            Console.WriteLine($"Привет {a}");
             Console.ReadKey();
         }
     }
