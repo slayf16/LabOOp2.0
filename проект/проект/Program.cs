@@ -14,7 +14,9 @@ namespace проект
             Console.WriteLine("как вас зовут?");
             a = Console.ReadLine();
             Console.WriteLine($"Привет {a}");
+            int d = 2 + 3;
             Console.ReadKey();
+
         }
     }
 }
