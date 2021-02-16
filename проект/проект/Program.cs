@@ -11,7 +11,9 @@ namespace проект
         static void Main(string[] args)
         {
             Console.WriteLine("Привет мир");
+            Console.WriteLine("Пока друг");
             Console.ReadKey();
+
         }
     }
 }
